@@ -95,13 +95,13 @@ nav {
 	justify-content: center;
 }
 
-
 .noMargin {
 	margin: 0px;
 }
 
+
 .projects, .about, .contact, .other {
-	color: aliceblue;
+	color: aquamarine;
 	height: 300px;
 	width: 500px;
 	border: solid white 3px;
@@ -109,14 +109,37 @@ nav {
 	line-height: 300px;
 	
 }
-/*
+
 .projects {
 	background-image: url("PICS/pic1.jpeg");
 	background-attachment:inherit;
 	background-position: center;
 	background-size: cover;
 }
-*/
+
+.about {
+	background-image: url("PICS/pic2.jpeg");
+	background-attachment:inherit;
+	background-position: center;
+	background-size: cover;
+}
+
+.contact {
+	background-image: url("PICS/pic3.jpeg");
+	background-attachment:inherit;
+	background-position: center;
+	background-size: cover;
+}
+
+.other {
+	background-image: url("PICS/pic1.jpeg");
+	background-attachment:inherit;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
 
 @media screen and (max-width: 700px) {
 	.menu-box {
