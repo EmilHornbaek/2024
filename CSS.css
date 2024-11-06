@@ -1,19 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background: linear-gradient(purple, pink);
+	background-repeat: no-repeat;background-attachment: fixed;
+}
 
 * {
 	 margin: 0;
+	
+	
 }
+
+/*
+
 nav {
-	background-color:#A88635; /*Tan*/
-		display: flex;
+	background: linear-gradient(pink, purple); 
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	height: 100px;
 	align-items: center;
 }
 
+.box4 {
+ 	background-color: aqua;
+	border-radius: 10px;
+	height: 200px;
+	width: 200px;
+	
+}
 .menu {
 	display: flex;
 	flex-direction: row;
@@ -54,6 +70,7 @@ nav {
 	margin-top: 8px;
 }
 
+
 #menu-activate:checked + .menu-box .menu-icon::before {
 	margin-top: 0;
 	transform: rotate(45deg);
@@ -71,6 +88,35 @@ nav {
 #menu-activate {
 	display: none;
 }
+*/
+.row {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+
+.noMargin {
+	margin: 0px;
+}
+
+.projects, .about, .contact, .other {
+	color: aliceblue;
+	height: 300px;
+	width: 500px;
+	border: solid white 3px;
+	text-align: center;
+	line-height: 300px;
+	
+}
+/*
+.projects {
+	background-image: url("PICS/pic1.jpeg");
+	background-attachment:inherit;
+	background-position: center;
+	background-size: cover;
+}
+*/
 
 @media screen and (max-width: 700px) {
 	.menu-box {
@@ -101,7 +147,6 @@ nav {
 		padding: 10px;
 		transition: height 1s;
 	}
-
 
 
 
