@@ -12,9 +12,22 @@ body{
 	
 }
 
-/*
+#header-index { 
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	align-items:center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+		
+}
 
-nav {
+#header-index img {
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+#header-menu {
 	background: linear-gradient(pink, purple); 
 	display: flex;
 	flex-direction: row;
@@ -22,6 +35,8 @@ nav {
 	height: 100px;
 	align-items: center;
 }
+
+
 
 .box4 {
  	background-color: aqua;
@@ -88,7 +103,7 @@ nav {
 #menu-activate {
 	display: none;
 }
-*/
+
 .row {
 	display: flex;
 	width: 100%;
@@ -100,7 +115,7 @@ nav {
 }
 
 
-.projects, .about, .contact, .other {
+.projects, .about, .contact, .photos {
 	color: aquamarine;
 	height: 300px;
 	width: 500px;
@@ -131,7 +146,7 @@ nav {
 	background-size: cover;
 }
 
-.other {
+.photos {
 	background-image: url("PICS/pic1.jpeg");
 	background-attachment:inherit;
 	background-position: center;
