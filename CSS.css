@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background: linear-gradient(purple, pink);
+	background: linear-gradient(#4a2E5C, #654D86);
 	background-repeat: no-repeat;background-attachment: fixed;
 }
 
@@ -24,36 +24,40 @@ body{
 
 #header-index img {
 	object-fit: cover;
+	border: #fbeeff 5px solid;
 	border-radius: 50%;
 }
 
 #header-menu {
-	background: linear-gradient(pink, purple); 
+	
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	height: 100px;
-	align-items: center;
+	height: 130px;
+	align-items: baseline;
 }
 
 
-
-.box4 {
- 	background-color: aqua;
-	border-radius: 10px;
-	height: 200px;
-	width: 200px;
-	
-}
 .menu {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 50px;
 }
 
-.menu li {
-	color: white;
-	padding: 15px;
+.menu img {
+
+	padding: 45px;
+}
+
+.home-btn img {
+	width: 120px; 
+	height: 120px;
+	object-fit: cover;
+	border: #fbeeff 5px solid;
+	border-radius: 50%;
+	margin-left: 55px;
 }
 
 .menu-box {
@@ -67,7 +71,7 @@ body{
 
 .menu-icon, .menu-icon::before, .menu-icon::after {
 	display: block;
-	background-color: white;
+	background-color: #fbeeff;
 	height: 4px;
 	width: 30px;
 	position: absolute;
@@ -116,44 +120,81 @@ body{
 
 
 .projects, .about, .contact, .photos {
-	color: aquamarine;
 	height: 300px;
 	width: 500px;
-	border: solid white 3px;
+	border: solid #fbeeff 2px;
 	text-align: center;
 	line-height: 300px;
 	
 }
 
+
 .projects {
-	background-image: url("PICS/pic1.jpeg");
+	background-image: url("PICS/ProjectsBLUR.jpg");
 	background-attachment:inherit;
 	background-position: center;
 	background-size: cover;
 }
 
 .about {
-	background-image: url("PICS/pic2.jpeg");
+	
+	background-image: url("PICS/AboutBLUR.jpg");
 	background-attachment:inherit;
 	background-position: center;
 	background-size: cover;
 }
 
 .contact {
-	background-image: url("PICS/pic3.jpeg");
+	background-image: url("PICS/ContactBLUR.jpg");
 	background-attachment:inherit;
 	background-position: center;
 	background-size: cover;
 }
 
 .photos {
-	background-image: url("PICS/pic1.jpeg");
+	background-image: url("PICS/PhotosBLUR.jpg");
 	background-attachment:inherit;
 	background-position: center;
 	background-size: cover;
 }
 
+.home-text {
+	height: 120px;
+	padding-top: 90px;
+}
 
+.breakline{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-top: #fbeeff solid 3px;
+}
+
+.footer img {
+	width: 100px;
+}
+
+.footer {
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	margin-top: 30px;
+}
+
+.footer div {
+	flex:1;
+	text-align: center;
+	justify-content: center;
+}
+
+.fb {
+	margin-left: 200px;
+}
+
+.x {
+	margin-right: 200px;
+}
 
 
 @media screen and (max-width: 700px) {
@@ -172,6 +213,8 @@ body{
 		justify-content: center;
 		align-items: center;
 	}
+	
+
 
 	#menu-activate ~ .menu li {
 		height: 0;
@@ -185,24 +228,11 @@ body{
 		padding: 10px;
 		transition: height 1s;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
+	@media screen and (max-width: 1000px) {
+	.row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		}
+}
