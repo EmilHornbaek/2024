@@ -307,7 +307,13 @@ body{
 	padding-top: 20px;
 	padding-right: 5px;
 	padding-left: 5px;
-}					
+}	
+.photobox3 img {
+	max-width: 1415px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
 
 @media screen and (max-width: 930px) {
 	.menu-box {
